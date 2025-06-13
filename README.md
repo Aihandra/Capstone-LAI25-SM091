@@ -25,15 +25,7 @@ Langkah-langkah:
 2. Menghapus emoji menggunakan regex  
 3. Menghapus karakter non-alfanumerik  
 4. Tokenisasi  
-5. Konversi kata tidak baku menggunakan kamus dari `kamuskatabaku.xlsx`
-
-Contoh:
-```python
-text = remove_emoji(text)
-text = re.sub(r'[^a-z0-9\s]', '', text)
-tokens = text.split()
-tokens_baku = konversi_kata_baku(tokens)
-```
+5. Konversi kata tidak baku menggunakan kamus dari 
 
 ## Pembangunan Leksikon
 Leksikon Positif berasal dari:
